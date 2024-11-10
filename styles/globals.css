@@ -1,0 +1,32 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .service {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: calc(50% - 10px);
+  }
+  
+  .service img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .service h2 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .service p {
+    margin: 0.5rem 0;
+  }
+  
